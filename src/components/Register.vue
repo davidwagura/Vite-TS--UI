@@ -22,8 +22,8 @@
   
   <script lang="ts">
   import { defineComponent, ref } from 'vue';
-  import { authService } from '@/api/services/authService';
-  import { RegisterUser } from '@/types/userTypes';
+  import { authService } from '../api/services/authService';
+  import { RegisterUser } from '../types/userTypes';
   
   export default defineComponent({
     name: 'Register',

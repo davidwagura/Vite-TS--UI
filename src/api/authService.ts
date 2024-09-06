@@ -1,5 +1,5 @@
-import { mockApi } from '@/api/apiClient';
-import { AuthResponse, LoginUser, RegisterUser } from '@/types/userTypes';
+import { mockApi } from '../api/apiClient';
+import { AuthResponse, LoginUser, RegisterUser } from '../types/userTypes';
 
 export const authService = {
   async registerUser(userData: RegisterUser): Promise<AuthResponse> {

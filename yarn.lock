@@ -1605,6 +1605,7 @@ __metadata:
     typescript: "npm:^5.5.3"
     vite: "npm:^5.4.1"
     vue: "npm:^3.4.37"
+    vue-router: "npm:4"
     vue-tsc: "npm:^2.0.29"
   languageName: unknown
   linkType: soft
@@ -1672,6 +1673,17 @@ __metadata:
     vue-demi-fix: bin/vue-demi-fix.js
     vue-demi-switch: bin/vue-demi-switch.js
   checksum: 10c0/a9ed8712fa36d01bc13c39757f95f30cebf42d557b99e94bff86d8660c81f2911b41220f7affc023d1ffcc19e13999e4a83019991e264787cca2c616e83aea48
+  languageName: node
+  linkType: hard
+
+"vue-router@npm:4":
+  version: 4.4.3
+  resolution: "vue-router@npm:4.4.3"
+  dependencies:
+    "@vue/devtools-api": "npm:^6.6.3"
+  peerDependencies:
+    vue: ^3.2.0
+  checksum: 10c0/dc13c30367653fb441f3f6378dc64645250e55a4089c8f547ffe0e1227122fbd02da53b14ecff9711b02e44070a5495c9e97b69954386ea55fb9644dd8dbb1d3
   languageName: node
   linkType: hard
 
